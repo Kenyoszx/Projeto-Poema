@@ -82,7 +82,7 @@ section.imagem{
 section.imagem > p{
     display: inline-block;
     padding: 5px;
-    background-color: #2e001475;
+    background-color: #2e00149d;
     border-radius: 5px;
     text-shadow: 1px 1px 1px black;
     
@@ -90,7 +90,7 @@ section.imagem > p{
 
 section#img1{
     background-image: url('../images/img1.jpg');
-    background-position: left center;
+    background-position: right top;
 }
 section#img2{
     background-image: url('../images/img2.jpg');
