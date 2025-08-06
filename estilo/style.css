@@ -52,8 +52,8 @@ header > p > a:hover {
 }
 
 section{
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 12vh;
+    padding-bottom: 12vh;
     line-height: 2em;
     padding-left: 30px;
 }
@@ -72,6 +72,9 @@ section.normal{
 section.imagem{
     background-color:var(--cor4);
     color: var(--cor1);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.486);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > p{
@@ -79,6 +82,17 @@ section.imagem > p{
     padding: 5px;
     background-color: #2e001475;
     border-radius: 5px;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+section#img1{
+    background-image: url('../images/img1.jpg');
+    background-position: left center;
+}
+section#img2{
+    background-image: url('../images/img2.jpg');
+    background-position: left center;
 }
 footer{
     width: auto;
