@@ -53,7 +53,7 @@ header > p > a:hover {
 
 section{
     padding-top: 12vh;
-    padding-bottom: 12vh;
+    padding-bottom: 8vh;
     line-height: 2em;
     padding-left: 30px;
 }
@@ -62,7 +62,7 @@ section > p{
     font-family: var(--fontepoema);
     font-size: 3.5vw;
     text-align: justify;
-    margin-bottom: 16px;
+    margin-bottom: 5vw;
     line-height: 1.5em;
 }
 
